@@ -11,7 +11,6 @@ import {
   FaGithub,
   FaRegCopyright,
 } from 'react-icons/fa'
-import { ContactFormFooter } from '@/components/Forms'
 
 function Footer() {
   return (
@@ -142,7 +141,18 @@ function Footer() {
               <div className="widgets-content">
                 <h3 className="widgets-title">Contact Us</h3>
                 <div className="office map">
-                  <ContactFormFooter />
+                  <p>Hi, if you have any questions, please drop us a line.</p>
+                  <span>
+                    <a
+                      className="footer-span"
+                      aria-label="Email hello@vetswhocode.io"
+                      title="Email Contact"
+                      href="hello@vetswhocode.io"
+                    >
+                      hello@vetswhocode.io
+                    </a>
+                  </span>
+                  <p> Phone: (404) 383-4414</p>
                 </div>
               </div>
             </div>
